@@ -142,7 +142,3 @@ class Account:
         self.frozen = False
         return "Account has been closed your balance is set to zero and your transaction is cleared."
 
-user1= Account("Mahder",200)
-        
-print(user1.deposit(500))
-print(user1.withdraw(300))
