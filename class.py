@@ -69,6 +69,7 @@ class Account:
             return "Account is frozen."
         if amount <= 0:
             return "Loan amount must be positive."
+        else:
         self.loan += amount
         self.balance += amount
         self.transactions.append(("loan_granted", amount))
